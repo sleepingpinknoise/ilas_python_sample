@@ -6,7 +6,7 @@ import pprint
 load_dotenv(".env")
 
 server = os.environ.get("WEBHOOK_URL")
-data = {'text': 'python request test: last_name'}
+data = {'text': 'python request test: soutarou takagi'}
 
 r = requests.post(server, json=data)
 
